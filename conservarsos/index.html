@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/apple-touch-icon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      
+      <link rel="stylesheet" href="assets/CSS/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link
+       rel="stylesheet"
+       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+      <title>conservar sostenible</title>
+   </head>
+   <body>
+
+      <header class="header">
+
+         <div class="menu container">
+
+            <a href="#" class="logo">CONSERVAR
+               SOSTENIBLE
+            </a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+               <img src="assets/img/menu.png" class="menu-icon" alt="">
+            </label>
+
+         <nav class="navbar">
+            <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="paginas/Servicios.html">Servicios</a></li>
+            <li><a href="paginas/Tienda.html">Tienda</a></li>
+            <li><a href="paginas/Reservaciones.html">Reservaciones</a></li>
+            <li><a href="paginas/Contacto.html">Contacto</a></li>
+            <li><a href="paginas/" id="login-btn">Inicio de Sesión</a></li> <!-- Nuevo -->
+         
+         </ul>
+         </nav>
+
+         <div class="icons">
+               <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-twitter"></i>
+               <i class="fa-brands fa-instagram"></i>
+         </div>
+
+         </div>
+
+         <div class="header-content container">
+            <div class="header-txt">
+               <h1>TU MEJOR DESTINO PARA DISFRUTAR</h1>
+               <p>
+                  Porque para CONSERVAR tu alegria nesesitas disfrutar de la belleza
+                  de este mundo con sus diferentes sitios turisticos y sus 
+                  ambientes acojedores. que esperas
+               </p>
+               <a href="#" class="btn-1">Seccion menu</a>
+            </div>
+         </div>
+
+         <div class="images">
+            <div class="swiper myswiper">
+               <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
+                     <img src="assets/img/home-img-3.png" alt="">
+                     <h3>Turisticos</h3>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <img src="assets/img/home-img-1.png" alt="">
+                     <h3>Playa</h3>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <img src="assets/img/home-img-2.png" alt="">
+                     <h3>Naturaleza</h3>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <img src="assets/img/home-img-4.png" alt="">
+                     <h3>Sensaciones</h3>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <img src="assets/img/testimonial-img.png" alt="">
+                     <h3>campamento</h3>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+
+         <div class="rows">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+         </div>
+
+         <div id="image-mo
+         
+         dal" class="modal">
+         <span class="modal-close">&times;</span>
+         <img class="modal-content" id="modal-img" alt="Imagen ampliada">
+         </div>
+      </header>
+     <!-- Modal Inicio de Sesión -->
+<div id="login-modal" class="modal-login">
+  <div class="login-content">
+    <span class="login-close">&times;</span>
+
+    <!-- Tabs -->
+    <div class="login-tabs">
+      <button class="tab-btn active" data-tab="login">Iniciar Sesión</button>
+      <button class="tab-btn" data-tab="register">Registrarse</button>
+    </div>
+
+    <!-- Formulario Login -->
+    <form id="login-form" class="tab-content active">
+      <input type="text" placeholder="Usuario o correo" required>
+      <input type="password" placeholder="Contraseña" required>
+      <button type="submit" class="btn-login">Ingresar</button>
+    </form>
+
+    <!-- Formulario Registro -->
+    <form id="register-form" class="tab-content" method="post" action="registrar.php">
+      <input type="text" name="Nombre" placeholder="Nombre completo" required>
+      <input type="email" name="correo" placeholder="Correo electrónico" required>
+      <input type="password" name="Contraseña" placeholder="Contraseña" required>
+      <button type="submit" class="btn-register">Crear Cuenta</button>
+    </form>
+  </div>
+</div>
+
+
+
+      
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
+
+
+
+
